@@ -165,3 +165,22 @@ header {
     margin-left: 5px;
 }
 /* FINE CONTAINER */
+
+/* FOOTER */
+.powered {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.powered a {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black
+}
+
+.powered em {
+    font-weight: 600;
+    color: black;
+}
+/* FINE FOOTER */
