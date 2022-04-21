@@ -1,0 +1,159 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* COMMON */
+header {
+    width: 1920px;
+    height: 95px;
+    background-color: aliceblue;
+    border: solid black 3px;
+    border-radius: 21px;
+}
+
+.b-background{
+    background-color: rgb(0, 110, 255);
+}
+
+.p-background {
+
+}
+
+.g-background {
+
+}
+
+.border-solid {
+    border: solid gray 1px;
+}
+
+.w-text{
+    color: white;
+    font-weight: 700;
+}
+
+.g-text{
+    color: gray;
+}
+
+.container-button {
+    margin-left: 10px;
+    padding: 4px;
+    border-radius: 10px;
+}
+/* FINE COMMON */
+
+/* HEADER */
+.logo img {
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.logo span {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 15px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* FINE HEADER */
+
+/* MAIN */
+
+/* BUTTON DIV */
+.task-section {
+    margin: auto;
+    margin-top: 40px;
+    border: solid black 2px;
+    border-radius: 20px;
+    background-color:aliceblue;
+    width: 1000px;
+    height: 70px;
+}
+
+.task-section span {
+    vertical-align: middle;
+    line-height: 70px;
+    margin-left: 35px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#task {
+    padding: 11px;
+}
+
+#section {
+    margin-left: 7px;
+}
+/* FINE BUTTON DIV */
+
+/* CONTAINER */
+.container {
+    margin: auto;
+    margin-top: 20px;
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 1000px;
+    height: 676px;
+}
+
+.arrow {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.arrow-title {
+    display: inline-block;
+    margin-top: 12px;
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.done {
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 2px;
+    border: solid green 1px;
+    border-radius: 55%;
+    color: green;
+    padding: 4px;
+    font-size: 23px;
+}
+
+.undone {
+    display: inline-block;
+    margin-left: 39px;
+    margin-top: 6px;
+    border: solid rgb(128, 0, 0) 1px;
+    border-radius: 55%;
+    color: rgb(128, 0, 0);
+    padding: 4px;
+    font-size: 21px;
+    margin-right: -4px;
+
+}
+
+.caption {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+}
+
+/* FINE CONTAINER */
